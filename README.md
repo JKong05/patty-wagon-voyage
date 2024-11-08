@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/frontend/src/assets/pattywagon.png" alt="Logo" width="240" height="240">
+    <img src="/frontend/src/assets/pattywagon.png" alt="Logo" width="1280" height="720">
   </a>
 
 <h3 align="center">project_title</h3>
