@@ -8,15 +8,6 @@
   </a>
 
 <h3 align="center">Patty Wagon Voyage</h3>
-
-  <p align="center">
-    This is a game based on the plot of the Spongebob movie from 2004, a 3:00 AM idea I came up with
-    watching my friend eat McDonalds. The premise is simple: answer geography trivia questions and play through a story.
-    However, I wanted to make it akin to games on our childhood websites like Hoodamath. There are a multitude 
-    of features like points, hints, and a leaderboard. However, it's not limited to a story mode: I've created a "blitz"
-    gamemode that allows you to practice your geography skills. So come explore Bikini Bottom in the Patty Wagon Voyage!
-    <br />
-  </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
