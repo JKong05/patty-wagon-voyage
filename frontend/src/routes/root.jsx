@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import { useNavigate, Outlet } from 'react-router-dom';
-import PattyWagon from '../components/PattyWagon';
-import HomeButtonMenu from '../components/buttons/HomeButtonMenu';
+import React, { useState } from "react";
+import { useNavigate, Outlet } from "react-router-dom";
+import PattyWagon from "../components/PattyWagon";
+import HomeButtonMenu from "../components/buttons/HomeButtonMenu";
 
 export default function Root() {
   const navigate = useNavigate();
   const [keepHomeButtons, setHomeButtons] = useState(true);
-  
+
   const handleSetGame = () => {
     setHomeButtons(false);
-    navigate('/story');
+    navigate("/story");
   };
 
   const handleBlitz = () => {
     setHomeButtons(false);
-    navigate('/selectblitz');
-  }
+    navigate("/selectblitz");
+  };
 
   const handleGetLeaderboard = () => {
     setHomeButtons(false);
-    navigate('/leaderboard');
+    navigate("/leaderboard");
   };
 
   return (
@@ -45,5 +45,4 @@ export default function Root() {
       </div>
     </div>
   );
-
 }

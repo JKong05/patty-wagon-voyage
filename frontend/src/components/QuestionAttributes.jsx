@@ -1,5 +1,5 @@
-import React from 'react';
-import Question from './Question';
+import React from "react";
+import Question from "./Question";
 
 function QuestionAttributes({ question }) {
   return (
@@ -7,6 +7,6 @@ function QuestionAttributes({ question }) {
       <Question question={question.question} />
     </div>
   );
-};
+}
 
 export default QuestionAttributes;

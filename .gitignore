@@ -67,3 +67,8 @@ coverage/
 *.iml
 *.lock
 .parcel-cache/
+
+# extra files
+*.csv
+.csv
+README.txt

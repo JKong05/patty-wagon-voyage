@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'SpongeFont';
-  src: url('./assets/MightySouly-lxggD.ttf') format('truetype'); /* For older browsers */
+  font-family: "SpongeFont";
+  src: url("./assets/MightySouly-lxggD.ttf") format("truetype"); /* For older browsers */
 }
-
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -34,7 +33,8 @@ h1 {
   }
 }
 
-body, html {
+body,
+html {
   margin: 0 auto;
   padding-right: 0;
   width: 100%;
@@ -45,20 +45,20 @@ body, html {
 
 .home-container {
   min-height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./assets/change-bg.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/change-bg.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 110% 110%;
 }
 
 .title {
-  font-family: 'SpongeFont';
+  font-family: "SpongeFont";
 }
 
 .patty-container {
   justify-content: center;
 }
-
 
 .menu-container {
   display: flex;
@@ -80,7 +80,9 @@ body, html {
   width: 400px;
   height: 80px;
   padding-right: 30px;
-  transition: background-color 0.4s ease, box-shadow 0.4s ease; /* Just transition background and shadow */
+  transition:
+    background-color 0.4s ease,
+    box-shadow 0.4s ease; /* Just transition background and shadow */
   font-family: Arial, sans-serif;
   border-radius: 8px 0 0 8px;
   margin-bottom: 20px;
@@ -88,13 +90,14 @@ body, html {
 }
 
 .answer-label {
-  font-family: 'SpongeFont';
+  font-family: "SpongeFont";
   font-size: 1.4em;
 }
 
 .easy-wrapper {
   min-height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./assets/easy1.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/easy1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -102,7 +105,8 @@ body, html {
 
 .medium-wrapper {
   min-height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./assets/medium1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/medium1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,7 +114,8 @@ body, html {
 
 .hard-wrapper {
   min-height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./assets/hard1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/hard1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -118,14 +123,15 @@ body, html {
 
 .blitz-wrapper {
   min-height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./assets/blitz.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/blitz.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .menu-label {
-  font-family: 'SpongeFont';
+  font-family: "SpongeFont";
   font-size: 2.5em;
 }
 
