@@ -48,6 +48,7 @@ Initialize npm if you have not already
    ```sh
    cd frontend
    npm install
+   cd ..
    ```
 4. create .env in backend directory and create environment variables
   - A mongoDB database is not required for the program
@@ -56,7 +57,15 @@ Initialize npm if you have not already
    URI=YOUR-MONGODB-DATABASE-ACCESS KEY
    SECRETKEY=GENERATE-SECRET-KEY-FOR-COOKIES
    ```
-5. Change git remote url to avoid accidental pushes to base project
+5. run both backend and frontend in either split terminal or separate ones
+  - Make sure to run the backend before frontend
+   ```sh
+   cd backend
+   npm run dev # cd out to root after running
+   cd frontend
+   npm run dev
+   ```
+6. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
