@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.venv/
+venv/
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+
+# Dependency directories
+.bower_components/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+**/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS Finder metadata
+*.DS_Store
+
+# Linux trash
+.Trash-*
+
+# Other backups
+*.swp
+*~
+*.bak
+*.tmp
+
+# Build directories
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+.nyc_output/
+*.lcov
+
+# Misc
+*.iml
+*.lock
+.parcel-cache/
