@@ -50,15 +50,13 @@ Initialize npm if you have not already
    npm install
    cd ..
    ```
-4. create .env in backend directory and create environment variables
-  - A mongoDB database is not required for the program
+4. create .env in backend directory and create environment variables (mongoDB key is not required for build)
    ```sh
    API_KEY=YOUR-GOOGLE-GEMINI-API-KEY
    URI=YOUR-MONGODB-DATABASE-ACCESS KEY
    SECRETKEY=GENERATE-SECRET-KEY-FOR-COOKIES
    ```
-5. run both backend and frontend in either split terminal or separate ones
-  - Make sure to run the backend before frontend
+5. run both backend and frontend in either split terminal or separate ones (make sure to run backend before frontend)
    ```sh
    cd backend
    npm run dev # cd out to root after running
