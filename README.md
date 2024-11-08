@@ -27,14 +27,8 @@ geography-based trivia game in your own style. The only conditions of the projec
 be related to geography. I had the brilliant idea to then base it off of the Spongebob movie because as I was trying to
 come up with ideas for a concept at 3:00 AM, I was watching clips of the movie on YouTube.
 
-### Built With
-
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
+## Tech Stack
+![My Skills](https://skillicons.dev/icons?i=mongodb,express,react,nodejs)
 
 <!-- GETTING STARTED -->
 
