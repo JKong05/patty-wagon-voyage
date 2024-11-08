@@ -6,8 +6,6 @@
   <a href="https://github.com/github_username/repo_name">
     <img src="/frontend/src/assets/pattywagon.png" alt="Logo" width="1080" height="360">
   </a>
-
-<h3 align="center">Patty Wagon Voyage</h3>
 </div>
 
 <!-- ABOUT THE PROJECT -->
